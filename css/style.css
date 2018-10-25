@@ -471,3 +471,15 @@ nav a#pull {
   .cycle-pager span:hover { 
 	color: #444;
   }
+  /* panning animation */
+@keyframes backgroundScroll {
+	0% { 
+	  -webkit-transform: translateX(0);  
+	}
+	50% { 
+	  -webkit-transform: translateX(-5%);  
+	}
+	100% { 
+	  -webkit-transform: translateX(0);  
+	}
+  }
