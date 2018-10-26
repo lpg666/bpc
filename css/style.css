@@ -25,7 +25,7 @@ body a{
     float: left;
     margin-top: 0.6em;
     width:150px;
-    height:60px;
+    height:65px;
 }
 
 .logo a:hover{
@@ -95,7 +95,7 @@ nav a#pull {
 }
 /*Styles for screen 600px and lower*/
 @media screen and (max-width: 768px) {
-    nav { 
+    nav {
         height: auto;
         float:none;
     }
@@ -163,33 +163,46 @@ nav a#pull {
 	.container{
 		width:75%;
 	}
+	.retro_chic_apartment_page3 .sdw{
+		top: 7.5em;
+    	font-size: 0.8em;
+	}
 }
 @media (max-width:1280px){
 	.container{
 		width:80%;
 	}
-	
 	.banner-info {
 		margin-top: 12.5em;
+	}
+	.retro_chic_apartment_page3 .sdw{
+		top: 6em;
+    	font-size: 0.7em;
 	}
 }
 @media (max-width:1024px){
 	.container{
 		width:80%;
 	}
-	
+
 	.banner-info {
 		margin-top: 12.5em;
 	}
 	.contact-map p, .contact-form p {
 		font-size: 1.1em;
 	}
+	.retro_chic_apartment_page3 .sdw{
+		right: 30px;
+		width: 35%;
+		top: 2em;
+    	font-size: 0.5em;
+	}
 }
 @media (max-width:768px){
 	.container{
 		width:80%;
 	}
-	
+
 	.banner-info {
 		margin-top: 9.5em;
 	}
@@ -220,12 +233,31 @@ nav a#pull {
 	.footer{
 		text-align:center;
 	}
+	/**/
+	.retro_chic_apartment_page2 .sdw{
+		margin-top: 0;
+	}
+	.retro_chic_apartment_page2 p{
+		color: #888;
+		width: calc(100% - 30px);
+		display: block;
+		margin: 0 auto 1em auto;
+	}
+	.retro_chic_apartment_page3 .sdw{
+		position: unset;
+		color: #888;
+		width: calc(100% - 30px);
+		display: block;
+		margin: 3em auto 1em auto;
+		font-size: inherit;
+	}
+	/**/
 }
 @media (max-width:640px){
 	.container{
 		width:80%;
 	}
-	
+
 	.banner-info {
 		margin-top: 6.5em;
 	}
@@ -262,12 +294,26 @@ nav a#pull {
 	.contact-form input[type="submit"]:hover {
 		background: url(../images/upload.png) no-repeat 16px 17px #303030;
 	}
+	.retro_chic_apartment_page1 .cover_logo{
+		margin: 2em auto 4em auto;
+	}
+	.retro_chic_apartment_page1 .cover_p{
+		font-size: 1em;
+	}
+	.retro_chic_apartment_page2 .sdw{
+		font-size: 0.5em;
+	}
+	.retro_chic_apartment_page3 .sdw{
+		width: auto;
+		margin: 2em auto 1em auto;
+		font-size: 0.5em;
+	}
 }
 @media (max-width:480px){
 	.container{
 		width:80%;
 	}
-	
+
 	.banner-info {
 		margin-top: 4.5em;
 	}
@@ -312,13 +358,12 @@ nav a#pull {
 		width: 100%;
 		margin-bottom:1em;
 	}
-
 }
 @media (max-width:320px){
 	.container{
 		width:90%;
 	}
-	
+
 	.banner-info {
 		margin-top: 2.5em;
 	}
@@ -390,7 +435,7 @@ nav a#pull {
 	.head-one span {
 		width: 40%;
 	}
-	
+
 }
 /*--//respoisnive-design----*/
 
@@ -402,14 +447,14 @@ nav a#pull {
 	overflow: hidden;
 	z-index: 9998;
   }
-  
+
   .landing .landing-item {
 	height: 100%;
 	width: 100%;
 	position: relative;
 	overflow: hidden;
   }
-  
+
   .landing .landing-item .landing-item-bg,
   .landing .landing-item .landing-item-content {
 	position: absolute;
@@ -417,7 +462,7 @@ nav a#pull {
 	left: 0;
 	height: 100%;
   }
-  
+
   .landing .landing-item .landing-item-bg {
 	width: 110%;
 	background-size: cover;
@@ -427,38 +472,38 @@ nav a#pull {
 	transform: translateX(0);
 	animation: backgroundScroll 30s linear infinite;
   }
-  
+
   .landing .landing-item .landing-item-content {
 	width: 100%;
 	height: 100%;
 	z-index: 9997;
 	display: table;
   }
-  
+
   .landing .landing-item .landing-item-content .landing-item-title {
 	font-size: 30pt;
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
   }
-  
+
   .landing .landing-item .landing-item-content .landing-item-title,
   .landing .landing-item .landing-item-content .landing-item-link {
 	color: #fff;
 	text-decoration: none;
   }
   /* pager */
-.cycle-pager { 
-	text-align: center; 
-	width: 100%; 
-	z-index: 9999 !important; 
-	position: absolute; 
-	bottom: 0; 
-	overflow: hidden; 
-	background: #fff; 
-	padding: 10px 0; 
+.cycle-pager {
+	text-align: center;
+	width: 100%;
+	z-index: 9999 !important;
+	position: absolute;
+	bottom: 0;
+	overflow: hidden;
+	background: #fff;
+	padding: 10px 0;
   }
-  .cycle-pager span { 
+  .cycle-pager span {
 	font-family: Acumin;
 	font-size: 18pt;
 	padding: 0 5px;
@@ -468,18 +513,18 @@ nav a#pull {
 	transition: .2s ease-in-out;
   }
   .cycle-pager span.cycle-pager-active,
-  .cycle-pager span:hover { 
+  .cycle-pager span:hover {
 	color: #444;
   }
   /* panning animation */
 @keyframes backgroundScroll {
-	0% { 
-	  -webkit-transform: translateX(0);  
+	0% {
+	  -webkit-transform: translateX(0);
 	}
-	50% { 
-	  -webkit-transform: translateX(-5%);  
+	50% {
+	  -webkit-transform: translateX(-5%);
 	}
-	100% { 
-	  -webkit-transform: translateX(0);  
+	100% {
+	  -webkit-transform: translateX(0);
 	}
   }
