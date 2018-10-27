@@ -163,9 +163,21 @@ nav a#pull {
 	.container{
 		width:75%;
 	}
+	.retro_chic_apartment_page2 .sdw{
+		font-size: 0.8em;
+	}
 	.retro_chic_apartment_page3 .sdw{
 		top: 7.5em;
     	font-size: 0.8em;
+	}
+	.retro_chic_apartment_page5 .left p{
+    	font-size: 0.8em;
+	}
+	.retro_chic_apartment_page6 .sdw{
+		font-size: 0.8em;
+	}
+	.living_in_gallery1 .sdw{
+		font-size: 0.9em;
 	}
 }
 @media (max-width:1280px){
@@ -177,7 +189,10 @@ nav a#pull {
 	}
 	.retro_chic_apartment_page3 .sdw{
 		top: 6em;
-    	font-size: 0.7em;
+    	font-size: 0.75em;
+	}
+	.living_in_gallery2 .sdw{
+		top: 80px;
 	}
 }
 @media (max-width:1024px){
@@ -196,6 +211,42 @@ nav a#pull {
 		width: 35%;
 		top: 2em;
     	font-size: 0.5em;
+	}
+	.retro_chic_apartment_page6 .sdw{
+		top: 6em;
+		font-size: 0.75em;
+	}
+	.living_in_gallery1 .sdw{
+		font-size: 0.8em;
+		bottom: 100px;
+	}
+	.living_in_gallery2 .sdw{
+		top: 70px;
+		font-size: 0.8em;
+	}
+	.living_in_gallery3 .img1{
+		margin-top: 5em;
+	}
+	.living_in_gallery3 .sdw .p1{
+		font-size: 1.2em;
+	}
+	.living_in_gallery3 .right p{
+		font-size: 0.7em;
+	}
+	.living_in_gallery6 .sdw{
+		margin-bottom: 7em;
+		font-size: 0.8em;
+	}
+}
+@media (max-width:865px){
+	.living_in_gallery3 .img1{
+		margin-top: 2em;
+	}
+	.living_in_gallery3 .right p{
+		margin-bottom: 7px;
+	}
+	.living_in_gallery6 .sdw{
+		margin-bottom: 6em;
 	}
 }
 @media (max-width:768px){
@@ -238,18 +289,105 @@ nav a#pull {
 		margin-top: 0;
 	}
 	.retro_chic_apartment_page2 p{
-		color: #888;
-		width: calc(100% - 30px);
+		color: #666;
+		width: calc(100% - 10px);
 		display: block;
 		margin: 0 auto 1em auto;
 	}
+	.retro_chic_apartment_page2 .col-sm-6{
+		padding: 0 15px;
+	}
 	.retro_chic_apartment_page3 .sdw{
 		position: unset;
-		color: #888;
-		width: calc(100% - 30px);
+		color: #666;
+		width: calc(100% - 10px);
 		display: block;
-		margin: 3em auto 1em auto;
-		font-size: inherit;
+		margin: 1em auto 1em auto;
+		font-size: 0.8em;
+	}
+	.retro_chic_apartment_page5 .left .img1{
+		margin-top: 0;
+		margin-bottom: 15px;
+	}
+	.retro_chic_apartment_page5 .left .img2{
+		margin-bottom: 0;
+	}
+	.retro_chic_apartment_page5 .xs-show{
+		display: block;
+		font-size: 0.8em;
+		color: #666;
+		margin: 15px;
+	}
+	.retro_chic_apartment_page5 .xs-hide{
+		display: none;
+	}
+	.retro_chic_apartment_page5 .right img{
+		margin-top: 15px;
+	}
+	.retro_chic_apartment_page6 .sdw{
+		position: unset;
+		font-size: 0.8em;
+		color: #666;
+		width: calc(100% - 10px);
+		display: block;
+		margin: 1em auto 1em auto;
+	}
+	.living_in_gallery1 .sdw{
+		font-size: 0.8em;
+		position: unset;
+		color: #666;
+		width: 100%;
+		display: block;
+		margin: 1em auto 1em auto;
+	}
+	.living_in_gallery2 .sdw{
+		font-size: 0.8em;
+		position: unset;
+		color: #666;
+		width: 100%;
+		display: block;
+		margin: 1em auto 1em auto;
+	}
+	.living_in_gallery2 .sdw .p1{
+		margin-bottom: 1em;
+	}
+	.living_in_gallery3 .img1{
+		width: 100%;
+		margin: 0;
+	}
+	.living_in_gallery3 .col-xs-12{
+		padding-right: 15px !important;
+	}
+	.living_in_gallery3 .sdw{
+		position: unset;
+		overflow: hidden;
+		width: 100%;
+		margin: 0;
+	}
+	.living_in_gallery3 .sdw .p1{
+		text-align: left;
+		margin: 1em 0;
+	}
+	.living_in_gallery3 .right p{
+		font-size: 0.8em;
+	}
+	.living_in_gallery3 .sdw>div{
+		width: 100% !important;
+	}
+	.living_in_gallery6{
+		display: block !important;
+	}
+	.living_in_gallery6 .p1{
+		margin: 1em 0;
+	}
+	.living_in_gallery6>div{
+		width: 100% !important;
+		float: none !important;
+	}
+	.living_in_gallery6 .sdw{
+		position: unset;
+		width: 100%;
+		margin: 0;
 	}
 	/**/
 }
@@ -301,12 +439,29 @@ nav a#pull {
 		font-size: 1em;
 	}
 	.retro_chic_apartment_page2 .sdw{
-		font-size: 0.5em;
+		font-size: 0.8em;
 	}
 	.retro_chic_apartment_page3 .sdw{
 		width: auto;
-		margin: 2em auto 1em auto;
-		font-size: 0.5em;
+		margin: 1em auto;
+		font-size: 0.8em;
+	}
+	.retro_chic_apartment_page5 .left p{
+		font-size: 0.8em;
+	}
+	.retro_chic_apartment_page5 .xs-show{
+		font-size: 0.8em;
+	}
+	.retro_chic_apartment_page6 .sdw{
+		width: auto;
+		margin: 1em auto;
+		font-size: 0.8em;
+	}
+	.living_in_gallery1 .sdw{
+		font-size: 0.8em;
+	}
+	.living_in_gallery2 .sdw .p1{
+		margin-bottom: 0.5em;
 	}
 }
 @media (max-width:480px){
